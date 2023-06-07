@@ -123,7 +123,7 @@ function Form({ setRows, open, handleClose, rows }: FormProps) {
             helperText={errors.data?.message}
           />
           <Button type="submit" variant="contained" color="primary">
-            Submit
+            Enviar
           </Button>
         </Box>
       </form>
