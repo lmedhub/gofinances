@@ -174,7 +174,7 @@ export default function Home() {
             title="Total"
             icon={<AttachMoneyIcon />}
             text="R$ 1.940,00"
-            backgroundColor="red"
+            backgroundColor="darkorange"
             textColor="white"
           />
         </Grid>
@@ -190,7 +190,7 @@ export default function Home() {
         handleClose={handleClose}
         rows={rows}
       />
-      <Box sx={{ height: 400, width: "100%", marginTop: "50px" }}>
+      <Box sx={{ height: 400, width: "100%" }}>
         <DataGrid
           rows={rows}
           columns={columns}
